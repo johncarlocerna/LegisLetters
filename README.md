@@ -38,3 +38,8 @@ container `nginx`.
 ### Contributions
 
 Please make sure all files pass `pylint` and `pyflakes`.
+
+### 2020 Update: How to Build
+
+This project runs from Bash. If using Windows, download WSL and install docker: https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly
+
