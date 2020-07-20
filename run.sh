@@ -2,7 +2,7 @@
 
 docker rm -f legisletters || :
 
-docker run \
+docker run -it \
   -p 80:80 \
   -e PYTHONPATH=/ \
   -v "${PWD}/dist":/site \
